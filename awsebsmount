@@ -1,0 +1,4 @@
+lsblk 
+file -s /dev/xvdf
+mkdir -p /opt/data
+mount /dev/xvdf1 /opt/data/
